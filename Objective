@@ -1,0 +1,39 @@
+🎬 Netflix Content Analysis using SQL Server (MSSQL)
+This project explores the Netflix content dataset using Microsoft SQL Server. I solved multiple business-oriented SQL problems to uncover insights related to content type, genres, ratings, regional trends, and more.
+📁 Dataset Fields
+Includes details like:
+show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description
+
+✅ Business Questions Answered
+Count the number of Movies vs TV Shows
+Most common rating for Movies and TV Shows
+Movies released in a specific year (e.g., 2020)
+Identify the longest movie
+Content added in the last 5 years
+All content by director 'Rajiv Chilaka'
+TV shows with more than 5 seasons
+Count content items in each genre
+Top 5 years with highest content released in India
+List all documentaries
+Content without a director
+Count of movies featuring 'Salman Khan' in last 10 years
+Classify content as 'Good' or 'Bad' based on keywords ('kill', 'violence')
+
+🔧 SQL Concepts Used
+Filtering with WHERE, LIKE, IS NULL
+Aggregation: COUNT, AVG, MAX
+Grouping and Ranking: GROUP BY, RANK()
+String functions: STRING_SPLIT, LTRIM, RTRIM
+Window functions: OVER()
+CTEs (Common Table Expressions)
+
+📊 Key Insights
+Movies dominate the platform compared to TV Shows
+Documentaries and Dramas are among the top genres
+Indian content releases have increased significantly since 2018
+Metadata inconsistencies like missing directors are present
+Keyword tagging helps classify potentially violent content
+
+🛠 Tools Used
+SQL Server (MSSQL)
+SSMS (SQL Server Management Studio)
